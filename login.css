@@ -1,0 +1,81 @@
+:root{
+    --soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+body{
+    font-family: Arial sans-serif;
+}
+.login-container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 70px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    margin-top: -30px;
+    
+}
+h5{
+    color: var(--Off-white);
+    text-align: center;
+    margin-top: -10px;
+}
+.input-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom:5px;
+    color: #fff;
+}
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+ button{
+     width: 30%;
+     padding: 10px;
+     background-color: var(--soft-orange);
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     margin-top: -500px;
+     margin-left: 450px;
+}
+
+.Account{
+    text-decoration: none;
+}
+.input-group label{
+    font-style: italic;
+}
+.input-group input::placeholder{
+    font-style: italic;
+}
+.forgot{
+    font-size: 15px;
+}
+a{
+    color: #0056b3;
+    text-align: center;
+}
+.forgot{
+    padding-left: 120px;
+}
+.submit{
+    text-decoration: none;
+    color: white;
+}
