@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>My long project</title>
+</head>
+<body>
+  <header class="header">
+  <div class="logo">
+    <img src="assets/images/logo.svg" alt="logo">
+  </div>
+  <nav>
+    <ul>
+    <li>Home</li>
+    <li>New</li>
+    <li>Popular</li>
+    <li>Trending</li>
+    <li>Categories</li>
+    </ul>
+  </nav>
+  <div id="menu-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+    <button>
+      <img src="assets/images/icon-menu.svg" alt="">
+    </button>
+  </div>
+  </header>
+  <section class="showcase">
+    <div>
+     <picture>
+      <source media="(min-width: 768px)" srcset="./assets/images/image-web-3-desktop.jpg">
+      <img src="./assets/images/image-web-3-mobile.jpg" alt="">
+     </picture>
+     <article>
+     <h1>The Bright future of web 3.0?</h1>
+    
+     <div>
+     <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+      But is it really fulfilling its promise?</p>
+      <button>Read More</button>
+      </div>
+      </article>
+    </div>
+    <div>
+      <h2>New</h2>
+      <article>
+        <h3>Hydrogen vs Electric cars</h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <article>
+        <h3>The Downsides of AI Artistry</h3>
+        <p>Wjat are the possible advevrse effects of on-demand AI image generation?</p>
+      </article>
+      <article>
+        <h3>Is VC funding drying up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </div>
+  </section>
+
+  <div class="cards">
+   <article>
+    <img src="assets/images/image-retro-pcs.jpg" alt="">
+    <div>
+      <span>01</span>
+      <h4>Reviving Retro PCs</h4>
+      <p>what happens when old PCs are given modern upgrades?</p>
+    </div>
+   </article>
+   <article>
+        <img src="assets/images/image-top-laptops.jpg" alt="">
+    <div>
+      <span>02</span>
+      <h4>Top 10 Laptops of 2022</h4>
+      <p>Our best picks for varipus needs and budgets</p>
+    </div>
+   </article>
+   <article>
+   <img src="assets/images/image-gaming-growth.jpg" alt="">
+   <div>
+    <span>03</span>
+      <h4>The Growth of Gaming</h4>
+      <p>How the pandemic has sparked the fresh opportunities</p>
+   </div>
+  </div>
+       
+
+  <!--off canvas-->
+  <div class="bootstrap">
+<div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+     <ul>
+      <li>Home</li>
+      <li>New</li>
+      <li>Popular</li>
+      <li>Trending</li>
+      <li>Categories</li>
+     </ul>
+  </div>
+</div>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
