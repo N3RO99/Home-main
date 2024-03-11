@@ -45,6 +45,10 @@
      .header #menu-button{
       margin-bottom: -10px;
      }
+     .header nav ul li:hover{
+       color: var(--Soft-red);
+       cursor: pointer;
+     }
      
      .header #menu-button button{
          background: transparent;
@@ -164,7 +168,33 @@
        }
        .header nav{
          display: block;
+         opacity: 1;
+         z-index: auto;
+         width: 100%;
          
+       }
+       .header nav.open{
+          position: relative;
+          width: auto;
+          background-color: transparent;
+          padding: 0;
+          z-index: auto;
+       }
+       .header nav #menu-close{
+         display: none;
+       }
+       .header nav ul{
+         position: relative;
+         top: 0;
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+         gap: 2rem;
+         transform: translateY(0%);
+         
+       }
+       .header nav ul li{
+         margin: 0;
        }
        .header #menu-button button{
          display: none;
